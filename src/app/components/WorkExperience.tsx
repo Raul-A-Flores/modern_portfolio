@@ -7,6 +7,7 @@ type Props = {}
 
 function WorkExperience({}: Props) {
   return (
+    <>
     <motion.div
         initial={{opacity: 0,}}
         whileInView={{ opacity: 1}}
@@ -25,6 +26,7 @@ function WorkExperience({}: Props) {
 
         </div>
     </motion.div>
+    </>
     
   )
 }
